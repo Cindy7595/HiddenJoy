@@ -1,0 +1,24 @@
+.title{
+    padding-top: 100px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 100px 0 30px;
+    z-index: 1;
+    
+}
+
+.title h2{
+    font-size: 32px;
+    color:#000f38;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* might cause problem since html is general */
+      
+}

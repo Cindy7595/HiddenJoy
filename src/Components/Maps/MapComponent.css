@@ -1,0 +1,63 @@
+.marker-table {
+    margin-top: 20px;
+    width: 100%; 
+  }
+  
+  .marker-table table {
+    width: 100%;
+    border: 1px solid black; 
+    border-collapse: collapse; 
+  }
+  
+  .marker-table th, .marker-table td {
+    padding: 12px 20px;
+    border: 1px solid #ddd; 
+    text-align: left; 
+  }
+  
+  .marker-table th {
+    background-color: #f4f4f4; 
+    font-weight: bold;
+  }
+  
+  .marker-table tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  
+  .marker-table tr:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  .marker-table td input {
+    width: 100%; 
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+  }
+  
+  .marker-table button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .marker-table button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .marker-table td button {
+    font-size: 12px;
+  }
+  
+  .marker-table .actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  

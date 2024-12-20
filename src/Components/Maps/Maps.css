@@ -1,0 +1,34 @@
+.maps-page {  /*Maps page div with headers and paragraphs*/
+  width: 100vw;   
+  height: 100vh; 
+  box-sizing: border-box;
+  padding: 200px 10px;
+  text-align: center; 
+  overflow-x: hidden;
+}
+
+.maps-page p{ 
+  padding-bottom: 40px;
+}
+
+.map-full { /*the google map*/
+  width: 100vw; 
+  max-width: 1200px;
+  height: calc(100vh - 150px);
+  margin: 0 auto; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+}
+
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .maps-page {
+    padding: calc(200px + 1rem) 5px 5px; 
+  }
+
+  .map-full {
+    width: 95%; 
+    height: calc(100vh - 150px); 
+  }
+}
